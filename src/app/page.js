@@ -9,13 +9,13 @@ export const metadata = {
 };
 
 export default async function Home() {
- 
+
   let posts = await getLatestPosts(3);
 
   return (
     <div className="bg-white">
       <main>
-        <div className="relative isolate pt-14">
+        <div className="relative isolate">
           <svg
             aria-hidden="true"
             className="absolute inset-0 -z-10 size-full stroke-gray-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
@@ -40,17 +40,20 @@ export default async function Home() {
             </svg>
             <rect fill="url(#83fd4e5a-9d52-42fc-97b6-718e5d7ee527)" width="100%" height="100%" strokeWidth={0} />
           </svg>
-          <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:flex lg:items-center lg:gap-x-10 lg:px-8 lg:py-40">
+          <div className="mx-auto max-w-7xl px-6 py-6 sm:py-16 lg:flex lg:items-center lg:gap-x-10 lg:px-8 lg:py-40">
             <div className="mx-auto max-w-2xl lg:mx-0 lg:flex-auto">
               <h1 className="mt-10 text-5xl font-semibold tracking-tight text-pretty sm:text-7xl">
                 Hallo, ich bin Tina.
               </h1>
               <h2 className="text-3xl font-semibold tracking-tight text-pretty text-violet-500 sm:text-7xl">
-                <TypewriterText words={["Mutter.", "Unternehmerin.", "Autorin."]} />
+                <TypewriterText words={["Mutter.", "Unternehmerin.", "Personalerin.", "Autorin."]} />
               </h2>
-              <p className="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-                fugiat veniam occaecat fugiat aliqua. Anim aute id magna aliqua ad ad non deserunt sunt.
+              <p className="mt-8 text-xl/8 text-balance text-gray-700">Zwei kleine Kinder, ein wachsendes Millionenbusiness – und ein Kopf voller Fragen, Ideen und To-dos.</p>
+              <p className="mt-4 text-gray-600 text-base/7">
+                Zwischen Spielplatz und Strategie-Meeting, zwischen Familienzeit und Firmenführung versuche ich, nicht mich selbst zu verlieren.
+                Ich glaube an ehrliche Worte, echte Geschichten – und daran, dass man nicht perfekt sein muss, um Großes zu schaffen. Das zu erkennen, war mein größter Lernprozess.
+                Hier schreibe ich über mentale Gesundheit, Mutterschaft, Leadership – und das echte Leben dazwischen.
+                Als Unternehmerin. Als Mama. Als Frau.
               </p>
             </div>
             <div className="mt-16 sm:mt-24 lg:mt-0 lg:shrink-0 lg:grow">
@@ -63,9 +66,10 @@ export default async function Home() {
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl text-center">
               <h2 className="text-4xl font-semibold tracking-tight text-balance text-gray-900 sm:text-5xl">
-                Neueste Artikel
+                Neu im Blog
               </h2>
-              <p className="mt-2 text-lg/8 text-gray-600">Learn how to grow your business with our expert advice.</p>
+              <p className="mt-2 text-lg/8 text-gray-600">Aus dem echten Leben, nicht aus dem Ratgeber.
+              </p>
             </div>
             <div className="mx-auto mt-16 grid max-w-2xl auto-rows-fr grid-cols-1 gap-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
               {posts.map((post) => (

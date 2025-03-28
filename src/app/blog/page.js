@@ -13,7 +13,7 @@ export default async function BlogHome() {
                     <h2 className="text-4xl font-semibold tracking-tight text-balance text-gray-900 sm:text-5xl">
                         Mein Blog
                     </h2>
-                    <p className="mt-2 text-lg/8 text-gray-600">Learn how to grow your business with our expert advice.</p>
+                    <p className="mt-2 text-lg/8 text-gray-600">Aus dem echten Leben, nicht aus dem Ratgeber.</p>
                 </div>
                 <div className="mx-auto mt-16 grid max-w-2xl auto-rows-fr grid-cols-1 gap-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
                     {posts.map((post) => (

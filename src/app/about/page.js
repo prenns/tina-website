@@ -9,28 +9,55 @@ export default function About() {
         <div className="overflow-hidden bg-white py-24 sm:py-32">
             <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
                 <div className="max-w-4xl">
-                    <p className="text-base/7 font-semibold text-indigo-600">About us</p>
+                    <p className="text-base/7 font-semibold text-violet-600">Über Mich</p>
                     <h1 className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
-                        On a mission to empower remote teams
+                        Meine Mission. Mein Warum.
                     </h1>
                     <p className="mt-6 text-xl/8 text-balance text-gray-700">
-                        Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam eget
-                        aliquam. Quisque id at vitae feugiat egestas.
+                    Ein eigenes Business. Mehr Freiheit. Mehr Zeit mit der Familie.
                     </p>
                 </div>
-                <section className="mt-20 grid grid-cols-1 lg:grid-cols-2 lg:gap-x-8 lg:gap-y-16">
+                <section className="mt-4 grid grid-cols-1 lg:grid-cols-2 lg:gap-x-8 lg:gap-y-16">
                     <div className="lg:pr-8">
-                        <h2 className="text-2xl font-semibold tracking-tight text-pretty text-gray-900">Our mission</h2>
                         <p className="mt-6 text-base/7 text-gray-600">
-                            Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet
-                            vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque
-                            erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper
-                            sed amet vitae sed turpis id.
+                           
+
+                            Das ist doch das Ziel, oder?
+                            Nur spricht kaum jemand darüber, was vorher kommt:
+
+                            Durchbeißen. Über Grenzen gehen.
+
+                            Denn diese Freiheit verdient man sich oft mit allem, was man hat.
+                            Und doch würde ich es immer wieder tun.
+
+                            Weil es mir erlaubt, ein Leben aufzubauen, das zu mir passt.
+
+                            Weil ich heute selbst entscheiden kann, wie ich arbeiten – und wie ich führen will.
+
+                            Und weil ich jeden Tag daran glaube, dass Menschlichkeit nicht das „Nice to have“ ist, sondern das Fundament von allem.
+
+                            Für meine Familie. Für mein Team. Für mich.
+                            Ich will nicht nur wirtschaftlich wachsen. Ich will Menschen mitnehmen.
+
+                            Meine Mitarbeiter sehen, fördern und ehrlich wertschätzen.
+
+                            Denn ohne sie wäre all das nicht möglich.
+
+
                         </p>
                         <p className="mt-8 text-base/7 text-gray-600">
-                            Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor
-                            fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac
-                            adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.
+                            Und das Schreiben?
+
+                            Das ist mein Rückzugsort. Mein Ventil. Mein Weg, Dinge zu verarbeiten – und zu teilen.
+
+                            Seit ich denken kann, liebe ich Geschichten. Früher Märchen. Dann Romane. Heute das echte Leben.
+                            Lange habe ich nur für mich geschrieben – auf Zetteln, in Notizbüchern, nachts in mein Handy getippt.
+
+                            Immer dann, wenn Gedanken zu groß für meinen Kopf wurden, habe ich sie rausgelassen.
+
+                            Vielleicht, weil ich insgeheim geglaubt habe:
+
+                            Was du fühlst, könnte genau das sein, was jemand anders gerade lesen muss.
                         </p>
                     </div>
                     <div className="pt-16 lg:row-span-2 lg:-mr-16 xl:mr-auto">
@@ -66,31 +93,33 @@ export default function About() {
                         </div>
                     </div>
                     <div className="max-lg:mt-16 lg:col-span-1">
-                        <p className="text-base/7 font-semibold text-gray-500">The numbers</p>
+                        <p className="text-base/7 font-semibold text-gray-500">Zahlen</p>
                         <hr className="mt-6 border-t border-gray-200" />
                         <dl className="mt-6 grid grid-cols-1 gap-x-8 gap-y-4 sm:grid-cols-2">
                             <div className="flex flex-col gap-y-2 border-b border-dotted border-gray-200 pb-4">
-                                <dt className="text-sm/6 text-gray-600">Raised</dt>
+                                <dt className="text-sm/6 text-gray-600">Kinder</dt>
                                 <dd className="order-first text-6xl font-semibold tracking-tight">
-                                    $<span>150</span>M
+                                    <span>2</span>
                                 </dd>
                             </div>
-                            <div className="flex flex-col gap-y-2 border-b border-dotted border-gray-200 pb-4">
-                                <dt className="text-sm/6 text-gray-600">Companies</dt>
-                                <dd className="order-first text-6xl font-semibold tracking-tight">
-                                    <span>30</span>K
-                                </dd>
-                            </div>
+                          
                             <div className="flex flex-col gap-y-2 max-sm:border-b max-sm:border-dotted max-sm:border-gray-200 max-sm:pb-4">
-                                <dt className="text-sm/6 text-gray-600">Deals Closed</dt>
+                                <dt className="text-sm/6 text-gray-600">Kunden</dt>
                                 <dd className="order-first text-6xl font-semibold tracking-tight">
-                                    <span>1.5</span>M
+                                    <span>+55.000</span>
                                 </dd>
                             </div>
                             <div className="flex flex-col gap-y-2">
-                                <dt className="text-sm/6 text-gray-600">Leads Generated</dt>
+                                <dt className="text-sm/6 text-gray-600">Bücher</dt>
                                 <dd className="order-first text-6xl font-semibold tracking-tight">
-                                    <span>200</span>M
+                                    <span>0,9</span>
+                                </dd>
+                            </div>
+                     
+                            <div className="flex flex-col gap-y-2 border-b border-dotted border-gray-200 pb-4">
+                                <dt className="text-sm/6 text-gray-600">Umsatz</dt>
+                                <dd className="order-first text-6xl font-semibold tracking-tight">
+                                    <span>+6 Mio.</span>€
                                 </dd>
                             </div>
                         </dl>

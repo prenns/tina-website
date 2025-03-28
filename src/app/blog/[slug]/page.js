@@ -50,12 +50,12 @@ export default async function BlogPost({ params }) {
     }
 
     return (
-        <div className="mt-8 lg:mt-16">
+        <div className="mt-2 lg:mt-8">
             <div className="xl:relative">
                 <div className="mx-auto max-w-2xl">
                     <article>
                         <header className="flex flex-col">
-                            <div className="mt-4 flex items-center gap-4">
+                            <div className="flex items-center gap-4">
                                 {post.author?.node?.avatar?.url && (
                                     <img
                                         src={post.author.node.avatar.url}

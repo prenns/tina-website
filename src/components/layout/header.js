@@ -57,6 +57,7 @@ export default function Header() {
                             <div className="space-y-2 py-6">
                                 {navigation.map((item) => (
                                     <Link
+                                        onClick={() => setMobileMenuOpen(false)}
                                         key={item.name}
                                         href={item.href}
                                         className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"

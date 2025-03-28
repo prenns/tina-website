@@ -72,7 +72,7 @@ export default function About() {
                             <div className="-mt-8 aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-black/10 lg:-mt-40">
                                 <img
                                     alt=""
-                                     src="/about2.png"
+                                     src="/about4.png"
                                     className="block size-full object-cover"
                                 />
                             </div>
@@ -86,7 +86,7 @@ export default function About() {
                             <div className="-mt-8 aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-black/10 lg:-mt-40">
                                 <img
                                     alt=""
-                                     src="/about4.png"
+                                     src="/about2.png"
                                     className="block size-full object-cover"
                                 />
                             </div>

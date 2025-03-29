@@ -9,11 +9,14 @@ export async function generateMetadata({ params }) {
     
     const { slug } = await params;
     const post = await getPostSEOtBySlug(slug);
-    
-    return {
-      title: post.seo.title,
-      description: post.seo.metaDesc
+
+    if(post) {
+        return {
+            title: post.seo.title,
+            description: post.seo.metaDesc
+          }
     }
+    else return null;
   }
 
 

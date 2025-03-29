@@ -2,7 +2,7 @@ import { getAllPosts, getPostBySlug, getPostSEOtBySlug } from "@/services/posts"
 import FormattedDate from "@/components/ui/formattedDate";
 import { notFound } from 'next/navigation';
 
-export const dynamicParams = false;
+export const dynamicParams = true;
 export const revalidate = 60;
 
 export async function generateMetadata({ params }) {

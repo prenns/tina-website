@@ -20,44 +20,41 @@ export default function About() {
                 <section className="mt-4 grid grid-cols-1 lg:grid-cols-2 lg:gap-x-8 lg:gap-y-16">
                     <div className="lg:pr-8">
                         <p className="mt-6 text-base/7 text-gray-600">
-                           
 
-                            Das ist doch das Ziel, oder?
-                            Nur spricht kaum jemand darüber, was vorher kommt:
+                            Ich wollte mehr Zeit für meine Familie.
+                            Mehr Freiheit. Mehr Flexibilität.
+                            Ein Leben, das zu mir passt.
 
-                            Durchbeißen. Über Grenzen gehen.
+                            Was selten jemand dazusagt:
+                            Bevor es leichter wird, wird’s erstmal richtig hart.
+                            Schlaflose Nächte. Existenzängste. Dauerverantwortung.
+                            Keine Pause, kein Netz, kein doppelter Boden.
 
-                            Denn diese Freiheit verdient man sich oft mit allem, was man hat.
-                            Und doch würde ich es immer wieder tun.
-
-                            Weil es mir erlaubt, ein Leben aufzubauen, das zu mir passt.
-
-                            Weil ich heute selbst entscheiden kann, wie ich arbeiten – und wie ich führen will.
-
-                            Und weil ich jeden Tag daran glaube, dass Menschlichkeit nicht das „Nice to have“ ist, sondern das Fundament von allem.
-
-                            Für meine Familie. Für mein Team. Für mich.
-                            Ich will nicht nur wirtschaftlich wachsen. Ich will Menschen mitnehmen.
-
-                            Meine Mitarbeiter sehen, fördern und ehrlich wertschätzen.
-
-                            Denn ohne sie wäre all das nicht möglich.
-
+                            Ich hab mein eigenes Business gegründet, weil ich etwas verändern wollte.
+                            Nicht nur für mich – auch für die Menschen, mit denen ich arbeite.
+                            Weil ich glaube, dass es anders geht.
+                            Ehrlicher. Menschlicher. Echter.
+                            Und weil ich mir ein Leben aufbauen wollte, das nicht wie „Work-Life-Balance“ klingt,
+                            sondern sich endlich so anfühlt.
 
                         </p>
-                        <p className="mt-8 text-base/7 text-gray-600">
+                     
+                        <p className="mt-6 text-base/7 text-gray-600">
+
+
                             Und das Schreiben?
+                            Das war schon immer mein Rückzugsort.
+                            Ich hab geschrieben, wenn mein Kopf zu voll war.
+                            Wenn ich Dinge nicht aussprechen konnte – aber auch nicht runterschlucken wollte.
 
-                            Das ist mein Rückzugsort. Mein Ventil. Mein Weg, Dinge zu verarbeiten – und zu teilen.
+                            Früher waren es Märchen, die mich fasziniert haben. Dann Romane.
+                            Und heute ist es das echte Leben, das mich nicht mehr loslässt.
 
-                            Seit ich denken kann, liebe ich Geschichten. Früher Märchen. Dann Romane. Heute das echte Leben.
-                            Lange habe ich nur für mich geschrieben – auf Zetteln, in Notizbüchern, nachts in mein Handy getippt.
 
-                            Immer dann, wenn Gedanken zu groß für meinen Kopf wurden, habe ich sie rausgelassen.
-
-                            Vielleicht, weil ich insgeheim geglaubt habe:
-
-                            Was du fühlst, könnte genau das sein, was jemand anders gerade lesen muss.
+                            Lange hab ich gedacht, das Schreiben wär „nur für mich“.
+                            Aber irgendwann hab ich gemerkt:
+                            Vielleicht ist genau das, was ich fühle,
+                            auch das, was jemand anders gerade lesen muss.
                         </p>
                     </div>
                     <div className="pt-16 lg:row-span-2 lg:-mr-16 xl:mr-auto">
@@ -72,21 +69,21 @@ export default function About() {
                             <div className="-mt-8 aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-black/10 lg:-mt-40">
                                 <img
                                     alt=""
-                                     src="/about4.png"
+                                    src="/about4.png"
                                     className="block size-full object-cover"
                                 />
                             </div>
                             <div className="aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-black/10">
                                 <img
                                     alt=""
-                                     src="/about3.png"
+                                    src="/about3.png"
                                     className="block size-full object-cover"
                                 />
                             </div>
                             <div className="-mt-8 aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-black/10 lg:-mt-40">
                                 <img
                                     alt=""
-                                     src="/about2.png"
+                                    src="/about2.png"
                                     className="block size-full object-cover"
                                 />
                             </div>
@@ -102,7 +99,7 @@ export default function About() {
                                     <span>2</span>
                                 </dd>
                             </div>
-                          
+
                             <div className="flex flex-col gap-y-2 max-sm:border-b max-sm:border-dotted max-sm:border-gray-200 max-sm:pb-4">
                                 <dt className="text-sm/6 text-gray-600">Kunden</dt>
                                 <dd className="order-first text-6xl font-semibold tracking-tight">
@@ -115,7 +112,7 @@ export default function About() {
                                     <span>0,9</span>
                                 </dd>
                             </div>
-                     
+
                             <div className="flex flex-col gap-y-2 border-b border-dotted border-gray-200 pb-4">
                                 <dt className="text-sm/6 text-gray-600">Umsatz</dt>
                                 <dd className="order-first text-6xl font-semibold tracking-tight">

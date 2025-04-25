@@ -1,3 +1,4 @@
+import { GoogleAnalytics } from '@next/third-parties/google'
 import { Geist, Geist_Mono } from "next/font/google";
 import Footer from "@/components/layout/footer";
 import Header from "@/components/layout/header";
@@ -35,6 +36,7 @@ export default function RootLayout({ children }) {
           <Footer />
         </div>
       </body>
+      <GoogleAnalytics gaId="G-CPHKPWK51E" />
     </html>
   );
 }

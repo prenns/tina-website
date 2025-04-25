@@ -145,7 +145,7 @@ export default function About() {
                                         <h4 className="text-lg font-semibold text-zinc-800">Geschäftsführerin</h4>
                                         <p className="text-sm text-zinc-500 mb-2">WUNDERklein GmbH (seit Jänner 2022)</p>
                                         <p className="mb-2 text-sm text-zinc-600 leading-relaxed">
-                                            <strong>Bereiche: </strong>Unternehmensführung, HR, Marketing, Produktentwicklung, Controlling
+                                            <strong>Bereiche: </strong>Unternehmensführung, HR, Marketing, Produktentwicklung, Buchhaltung
                                         </p>
                                         <p className="text-sm text-zinc-600 leading-relaxed">
                                             Leitung und Skalierung eines 7-stelligen Online-Unternehmens für handgravierten Schmuck

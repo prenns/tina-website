@@ -57,36 +57,13 @@ export default function About() {
                             auch das, was jemand anders gerade lesen muss.
                         </p>
                     </div>
-                    <div className="pt-16 lg:row-span-2 lg:-mr-16 xl:mr-auto">
-                        <div className="-mx-8 grid grid-cols-2 gap-4 sm:-mx-16 sm:grid-cols-4 lg:mx-0 lg:grid-cols-2 lg:gap-4 xl:gap-8">
-                            <div className="aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-black/10">
-                                <img
-                                    alt=""
-                                    src="/about1.png"
-                                    className="block size-full object-cover"
-                                />
-                            </div>
-                            <div className="-mt-8 aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-black/10 lg:-mt-40">
-                                <img
-                                    alt=""
-                                    src="/about4.png"
-                                    className="block size-full object-cover"
-                                />
-                            </div>
-                            <div className="aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-black/10">
-                                <img
-                                    alt=""
-                                    src="/about3.png"
-                                    className="block size-full object-cover"
-                                />
-                            </div>
-                            <div className="-mt-8 aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-black/10 lg:-mt-40">
-                                <img
-                                    alt=""
-                                    src="/about2.png"
-                                    className="block size-full object-cover"
-                                />
-                            </div>
+                    <div className="lg:row-span-2 lg:-mr-16 xl:mr-auto">
+                        <div className="overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-black/10">
+                            <img
+                                alt="Tina"
+                                src="/tina2.jpg"
+                                className="block w-full h-auto object-cover"
+                            />
                         </div>
                     </div>
                     <div className="max-lg:mt-16 lg:col-span-1">
@@ -103,7 +80,7 @@ export default function About() {
                             <div className="flex flex-col gap-y-2 max-sm:border-b max-sm:border-dotted max-sm:border-gray-200 max-sm:pb-4">
                                 <dt className="text-sm/6 text-gray-600">Kunden</dt>
                                 <dd className="order-first text-6xl font-semibold tracking-tight">
-                                    <span>+55.000</span>
+                                    <span>+65.000</span>
                                 </dd>
                             </div>
                             <div className="flex flex-col gap-y-2">
@@ -116,7 +93,7 @@ export default function About() {
                             <div className="flex flex-col gap-y-2 border-b border-dotted border-gray-200 pb-4">
                                 <dt className="text-sm/6 text-gray-600">Umsatz</dt>
                                 <dd className="order-first text-6xl font-semibold tracking-tight">
-                                    <span>+6 Mio.</span>€
+                                    <span>+7 Mio.</span>€
                                 </dd>
                             </div>
                         </dl>

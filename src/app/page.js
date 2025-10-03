@@ -57,7 +57,7 @@ export default async function Home() {
               </p>
             </div>
             <div className="mt-16 sm:mt-24 lg:mt-0 lg:shrink-0 lg:grow">
-              <img alt="Portrait von Tina Prennsberger" src="/profile1.png" className="mx-auto w-xl max-w-full drop-shadow-xl" />
+              <img alt="Portrait von Tina Prennsberger" src="/tina1.jpg" className="mx-auto w-xl max-w-full drop-shadow-xl" />
             </div>
           </div>
         </div>

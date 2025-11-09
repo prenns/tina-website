@@ -5,11 +5,34 @@ const apiKey = process.env.BREVO_API_KEY;
 
 export async function POST(request) {
   try {
-    const { email } = await request.json();
+    const { email, listId, listIds } = await request.json();
 
     if (!email) {
       return NextResponse.json(
         { error: 'E-Mail-Adresse wird benötigt.' },
+        { status: 400 }
+      );
+    }
+
+    const resolvedListIds = Array.isArray(listIds)
+      ? listIds
+      : typeof listId !== 'undefined'
+        ? [listId]
+        : null;
+
+    const normalizedListIds = resolvedListIds
+      ? resolvedListIds
+          .map((id) => {
+            const parsedId =
+              typeof id === 'string' ? Number.parseInt(id, 10) : Number(id);
+            return Number.isInteger(parsedId) && parsedId > 0 ? parsedId : null;
+          })
+          .filter((id) => id !== null)
+      : [];
+
+    if (!normalizedListIds.length) {
+      return NextResponse.json(
+        { error: 'Eine gültige Listen-ID wird benötigt.' },
         { status: 400 }
       );
     }
@@ -32,6 +55,7 @@ export async function POST(request) {
       body: JSON.stringify({
         email,
         updateEnabled: true,
+        listIds: normalizedListIds,
       }),
     });
 

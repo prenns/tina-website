@@ -3,7 +3,7 @@ import { SignupForm } from '@/components/buch/signup-form';
 export default function EbookIncentive() {
   return (
     <div className="space-y-8 lg:space-y-12">
-      <section className="container mx-auto px-4 py-10 md:px-6 lg:py-20 2xl:max-w-[1400px]">
+      <section className="container mx-auto px-4 md:px-6 lg:py-20 2xl:max-w-[1400px]">
         <div className="grid items-center gap-8 md:grid-cols-2 lg:gap-12">
           <img
             src="/mml-buch.png"

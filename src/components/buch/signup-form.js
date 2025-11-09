@@ -29,7 +29,7 @@ export function SignupForm() {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ email }),
+        body: JSON.stringify({ email, listId: 4 }),
       });
 
       if (!response.ok) {

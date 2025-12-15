@@ -1,6 +1,5 @@
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
-import Link from 'next/link';
 
 export default function EbookIncentive() {
   return (
@@ -27,7 +26,7 @@ export default function EbookIncentive() {
                 className="h-12 px-6 border border-black bg-white hover:bg-gray-50 text-black font-normal rounded-lg flex items-center gap-2.5 shadow-sm"
                 asChild
               >
-                <Link 
+                <a 
                   href="https://www.amazon.de/Mama-Managerin-Mental-Limit-perfekte/dp/3819223835/" 
                   target="_blank" 
                   rel="noopener noreferrer"
@@ -40,7 +39,7 @@ export default function EbookIncentive() {
                     className="h-5 w-auto"
                   />
                  
-                </Link>
+                </a>
               </Button>
             </div>
           </div>

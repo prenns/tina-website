@@ -1,4 +1,6 @@
-import { SignupForm } from '@/components/buch/signup-form';
+import { Button } from '@/components/ui/button';
+import Image from 'next/image';
+import Link from 'next/link';
 
 export default function EbookIncentive() {
   return (
@@ -6,7 +8,7 @@ export default function EbookIncentive() {
       <section className="container mx-auto px-4 md:px-6 lg:py-20 2xl:max-w-[1400px]">
         <div className="grid items-center gap-8 md:grid-cols-2 lg:gap-12">
           <img
-            src="/mml-buch.png"
+            src="/mml-buch-erhaeltlich.png"
             alt="Mama Managering Mental am Limit Cover"
             className="h-auto w-full rounded-lg object-cover shadow-lg"
             width={640}
@@ -17,10 +19,29 @@ export default function EbookIncentive() {
               Mama, Managerin, Mental am Limit.
             </h2>
             <p className="text-foreground mt-4 max-w-4xl text-base text-balance sm:text-lg">
-              Melde dich an und sei bei der Buchpremiere dabei – mit exlusiven Einblicken & kleinen Überraschungen in deiner Mailbox.
+            Jetzt erhältlich. Ein Blick hinter die perfekte Fassade – ehrlich, roh, und ohne Filter.
             </p>
             <div className="mt-6">
-              <SignupForm />
+              <Button
+                variant="outline"
+                className="h-12 px-6 border border-black bg-white hover:bg-gray-50 text-black font-normal rounded-lg flex items-center gap-2.5 shadow-sm"
+                asChild
+              >
+                <Link 
+                  href="https://www.amazon.de/Mama-Managerin-Mental-Limit-perfekte/dp/3819223835/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  <Image
+                    src="/Amazon_logo.svg.webp"
+                    alt="Amazon"
+                    width={80}
+                    height={24}
+                    className="h-5 w-auto"
+                  />
+                 
+                </Link>
+              </Button>
             </div>
           </div>
         </div>

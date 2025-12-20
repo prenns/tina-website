@@ -25,6 +25,10 @@ export default function Impressum() {
                                 </p>
                             </div>
                         </div>
+                        <div className="mt-12 pt-8">
+                            <h2 className="text-xl font-semibold text-gray-900 mb-4">Blattlinie</h2>
+                            <p className="text-base text-gray-600">Informationen und persönliche Inhalte zu den Themen Unternehmertum, Mutterschaft, Mental Health, Selbstreflexion sowie Einblicke in eigene Buch- und Unternehmensprojekte</p>
+                        </div>
                     </div>
                 </div>
             </div>

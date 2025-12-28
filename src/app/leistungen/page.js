@@ -22,7 +22,7 @@ export default function Leistungen() {
                             KEYNOTE
                         </h2>
                         <p className="mt-2 text-xl font-semibold text-gray-900">
-                        „Mental am Limit: Was niemand über Erfolg erzählt“
+                        &bdquo;Mental am Limit: Was niemand über Erfolg erzählt&rdquo;
                         </p>
                         <p className="mt-6 text-base/7 text-gray-600">
                             Kein Motivationsvortrag. Keine Work-Life-Balance-Tipps. Sondern eine ehrliche Geschichte über den Weg vom 7-stelligen Unternehmen in die Erschöpfungsdepression – und was ich daraus gelernt habe.
@@ -68,7 +68,7 @@ export default function Leistungen() {
                             WORKSHOP FÜR UNTERNEHMEN
                         </h2>
                         <p className="mt-2 text-xl font-semibold text-gray-900">
-                            Mentale Gesundheit im Unternehmen – jenseits von Obstkorb & Yoga
+                            Mentale Gesundheit im Unternehmen – jenseits von Obstkorb &amp; Yoga
                         </p>
                         <p className="mt-6 text-base/7 text-gray-600">
                             Mental Health ist kein Randthema. Es ist ein Führungsthema. Und es kostet Unternehmen erheblich, wenn Warnsignale zu spät erkannt werden.
@@ -88,7 +88,7 @@ export default function Leistungen() {
                                 <div>
                                     <p className="text-base/7 font-semibold text-gray-900">2) Warnsignale erkennen</p>
                                     <p className="mt-1 text-base/7 text-gray-600">
-                                        Zentrale Muster bei Überlastung + Praxisfall aus meinem eigenen Unternehmen: „Leistungsträgerin mit kurzer Zündschnur“ – gemeinsam analysiert, offen reflektiert
+                                        Zentrale Muster bei Überlastung + Praxisfall aus meinem eigenen Unternehmen: &bdquo;Leistungsträgerin mit kurzer Zündschnur&rdquo; – gemeinsam analysiert, offen reflektiert
                                     </p>
                                 </div>
                                 <div>
@@ -117,9 +117,9 @@ export default function Leistungen() {
                         <div className="mt-8">
                             <p className="text-base/7 font-semibold text-gray-900">Inkludiert</p>
                             <ul className="mt-4 space-y-2 text-base/7 text-gray-600 list-disc list-inside">
-                                <li>Handout „Zentrale Warnsignale“</li>
-                                <li>Checkliste „Wie mental gesund ist unsere Kultur?“</li>
-                                <li>Mein Buch „Mama, Managerin, Mental am Limit“ für alle Teilnehmer:innen (als vertiefende Lektüre)</li>
+                                <li>Handout &bdquo;Zentrale Warnsignale&rdquo;</li>
+                                <li>Checkliste &bdquo;Wie mental gesund ist unsere Kultur?&rdquo;</li>
+                                <li>Mein Buch &bdquo;Mama, Managerin, Mental am Limit&rdquo; für alle Teilnehmer:innen (als vertiefende Lektüre)</li>
                             </ul>
                         </div>
                         <div className="mt-8">
@@ -150,7 +150,7 @@ export default function Leistungen() {
                             LESUNG & GESPRÄCH
                         </h2>
                         <p className="mt-2 text-xl font-semibold text-gray-900">
-                           „Mama, Managerin, Mental am Limit“
+                           &bdquo;Mama, Managerin, Mental am Limit&rdquo;
                         </p>
                         <p className="mt-6 text-base/7 text-gray-600">
                             Keine klassische Lesung, bei der nur vorgelesen wird. Sondern ausgewählte Passagen aus dem Buch – kombiniert mit persönlicher Einordnung, ehrlichen Gesprächen und Raum für Fragen.

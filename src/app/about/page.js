@@ -86,14 +86,14 @@ export default function About() {
                             <div className="flex flex-col gap-y-2">
                                 <dt className="text-sm/6 text-gray-600">Bücher</dt>
                                 <dd className="order-first text-6xl font-semibold tracking-tight">
-                                    <span>0,9</span>
+                                    <span>1</span>
                                 </dd>
                             </div>
 
                             <div className="flex flex-col gap-y-2 border-b border-dotted border-gray-200 pb-4">
                                 <dt className="text-sm/6 text-gray-600">Umsatz</dt>
                                 <dd className="order-first text-6xl font-semibold tracking-tight">
-                                    <span>+7 Mio.</span>€
+                                    <span>+8 Mio.</span>€
                                 </dd>
                             </div>
                         </dl>

@@ -94,7 +94,7 @@ export default function Leistungen() {
                                 <div>
                                     <p className="text-base/7 font-semibold text-gray-900">3) Schwierige Gespräche führen</p>
                                     <p className="mt-1 text-base/7 text-gray-600">
-                                        Dos & Don'ts + Rollenspiel in 2er-Gruppen (inkl. Reflexion)
+                                        Dos &amp; Don&apos;ts + Rollenspiel in 2er-Gruppen (inkl. Reflexion)
                                     </p>
                                 </div>
                                 <div>

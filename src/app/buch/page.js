@@ -20,25 +20,44 @@ export default function EbookIncentive() {
             <p className="text-foreground mt-4 max-w-4xl text-base text-balance sm:text-lg">
             Jetzt erhältlich. Ein Blick hinter die perfekte Fassade – ehrlich, roh, und ohne Filter.
             </p>
-            <div className="mt-6">
+            <div className="mt-6 flex flex-col sm:flex-row gap-3">
               <Button
                 variant="outline"
-                className="h-12 px-6 border border-black bg-white hover:bg-gray-50 text-black font-normal rounded-lg flex items-center gap-2.5 shadow-sm"
+                className="h-12 px-6 border border-black bg-white hover:bg-gray-50 text-black font-normal rounded-lg flex items-center justify-center gap-2.5 shadow-sm [&_img]:block [&_img]:mx-auto"
                 asChild
               >
-                <a 
-                  href="https://www.amazon.de/Mama-Managerin-Mental-Limit-perfekte/dp/3819223835/" 
-                  target="_blank" 
+                <a
+                  href="https://www.thalia.at/shop/home/artikeldetails/A1077709090"
+                  target="_blank"
                   rel="noopener noreferrer"
+                >
+                  <Image
+                    src="/thalia_logo.png"
+                    alt="Thalia"
+                    width={80}
+                    height={24}
+                    className="h-5 w-auto"
+                  />
+                </a>
+              </Button>
+              <Button
+                variant="outline"
+                className="h-12 px-6 border border-black bg-white hover:bg-gray-50 text-black font-normal rounded-lg flex items-center justify-center gap-2.5 shadow-sm [&_img]:block [&_img]:mx-auto"
+                asChild
+              >
+                <a
+                  href="https://www.amazon.de/Mama-Managerin-Mental-Limit-perfekte/dp/3819223835/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="[&_img]:translate-y-0.5"
                 >
                   <Image
                     src="/Amazon_logo.svg.webp"
                     alt="Amazon"
                     width={80}
                     height={24}
-                    className="h-5 w-auto"
+                    className="h-5 w-auto block mx-auto"
                   />
-                 
                 </a>
               </Button>
             </div>
